@@ -49,7 +49,7 @@ Flashmob-Tracker ist eine iPhone iOS-App, entwickelt in SwiftUI, die es Benutzer
 
 ## UML-Diagramm
 
-![Flashmob](images/header.jpg)
+![Flashmob](images/uml.png)
 
 ## API-Links
 
