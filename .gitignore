@@ -11,3 +11,6 @@
 # Build-Ordner
 build/
 DerivedData/
+
+# Google Config
+GoogleService-Info.plist
