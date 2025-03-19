@@ -1,0 +1,13 @@
+# macOS Systemdateien
+.DS_Store
+
+# Xcode-Projektdateien
+*.xcuserstate
+*.xcscmblueprint
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Build-Ordner
+build/
+DerivedData/
