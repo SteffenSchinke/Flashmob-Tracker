@@ -1,0 +1,142 @@
+//
+//  Localizable.strings
+//  Flashmob-Tracker
+//
+//  Created by Steffen Steffen on 12.02.25.
+//
+
+"title_pdf" = "Document PDF";
+"title_org_list" = "Flashmobs";
+"title_organizer" = "Organisateur";
+"title_filter" = "Filtre";
+"title_event_details" = "Détail de l'événement";
+"title_dash_fav" = "Mes Favoris";
+"title_dash_news" = "Actualités";
+"title_auth" = "Authentification";
+"title_docs" = "Documents";
+"title_motiv" = "Motivation";
+"title_planned_team" = "Planification de l'équipe";
+"title_actors" = "Acteurs prévus";
+"title_actors_search" = "Acteurs recherchés";
+"title_date" = "Date";
+"title_desc" = "Description";
+"title_location" = "Lieu";
+"title_map_favorites" = "Favoris sur la carte";
+"title_map_flashmobs" = "Flashmobs sur la carte";
+"title_map_organizer" = "Organisateurs sur la carte";
+"title_date_where" = "Quand & Où";
+"title_global" = "Général";
+"title_sign_in" = "Connexion";
+"title_sign_up" = "Inscription";
+"title_greet" = "Bienvenue";
+"title_dashboard" = "Tableau de bord";
+"title_flashmob_map" = "Carte";
+"title_friends" = "Contacts";
+"title_settings" = "Paramètres";
+"title_dark_mode" = "Mode sombre";
+"title_anime_mode" = "Fond animé";
+"title_lang" = "Langue";
+"title_tip" = "Astuce";
+"title_notice" = "Notification";
+"title_notice_allowed" = "Notifications";
+"title_notice_new_events_allowed" = "Pour les nouveaux événements";
+"title_notice_new_massege_allowed" = "Pour les nouveaux messages";
+"title_notice_memories_allowed" = "Pour rappel";
+"title_selection_image" = "Choisir une image";
+"title_menu" = "Menu";
+"title_organizer" = "Organisateur";
+"title_participant" = "Participant";
+"title_guest" = "Invité";
+"title_logo_company" = "Logo de l'entreprise";
+"title_logo_profile" = "Photo de profil";
+"title_informations" = "Informations";
+"title_dgsvo" = "RGPD";
+"title_agb" = "CGU";
+"title_profile" = "Profil";
+"title_create_event" = "Nouvel événement";
+"title_sozial_media" = "Connexion via les réseaux sociaux";
+"title_datasource" = "Les données géographiques proviennent d'OpenStreetMap et sont sous licence Open Database License (ODbL). Pour plus d'informations, consultez https://www.openstreetmap.org/copyright.";
+
+
+"btn_sign_in" = "Se connecter";
+"btn_sign_up" = "S'inscrire";
+"btn_sign_out" = "Se déconnecter";
+"btn_continue" = "Continuer";
+"btn_back" = "Retour";
+"btn_save" = "Enregistrer";
+"btn_map_min" = "Minimiser la carte";
+"btn_map_max" = "Maximiser la carte";
+
+
+"lbl_search" = "Recherche";
+"lbl_pin_mode" = "Marqueur de carte";
+
+
+"ph_email" = "E-mail ...";
+"ph_pwd" = "Mot de passe ...";
+"ph_pwd_conform" = "Confirmer le mot de passe ...";
+"ph_first_name" = "Prénom ...";
+"ph_last_name" = "Nom ...";
+"ph_company_name" = "Nom de l'entreprise ...";
+"ph_city" = "Ville ...";
+"ph_street" = "Rue et numéro ...";
+"ph_zip_code" = "Code postal ...";
+"ph_search" = "Recherche ...";
+
+
+"tip_email" = "L'adresse e-mail doit être au format valide. Ex. exemple.nom@email.com";
+"tip_pwd" = "Le mot de passe doit comporter au moins 8 caractères, dont au moins un chiffre, une majuscule et un caractère spécial.";
+"tip_pwd_conform" = "Le mot de passe doit correspondre au précédent.";
+"tip_auth_google" = "La connexion via Google n'est pas disponible dans la version de prévisualisation.";
+"tip_name" = "Le nom doit comporter au moins 3 caractères et commencer par une majuscule. Les caractères spéciaux ne sont pas autorisés.";
+"tip_agb" = "Je confirme avoir lu et accepté les CGU dans leur intégralité.";
+"tip_company_name" = "Le nom de l'entreprise doit comporter au moins 3 lettres et commencer par une majuscule. Les caractères spéciaux ne sont pas autorisés.";
+"tip_city" = "Le nom de la ville doit comporter au moins 3 lettres et commencer par une majuscule. Les caractères spéciaux ne sont pas autorisés.";
+"tip_street" = "Le nom de la rue doit comporter au moins 3 lettres et commencer par une majuscule, suivi du numéro de rue. Les caractères spéciaux ne sont pas autorisés.";
+"tip_zip_code" = "Le code postal doit comporter au moins 5 caractères. Les caractères spéciaux ne sont pas autorisés.";
+
+
+"conf_last_name" = "Veuillez saisir un nom valide !";
+"conf_first_name" = "Veuillez saisir un prénom valide !";
+"conf_company_name" = "Veuillez saisir un nom d'entreprise valide !";
+"conf_location" = "Veuillez sélectionner votre emplacement";
+"conf_pwd_conform" = "Les mots de passe ne correspondent pas !";
+"conf_pwd" = "Veuillez saisir un mot de passe valide !";
+"conf_email" = "Veuillez saisir une adresse e-mail valide !";
+"conf_agb" = "Veuillez accepter les CGU !";
+"conf_error" = "Impossible de télécharger la photo de profil, aucune donnée utilisateur trouvée !";
+
+"lng_ch" = "Chinois";
+"lng_de" = "Allemand";
+"lng_en" = "Anglais (GB)";
+"lng_us" = "Anglais (US)";
+"lng_fr" = "Français";
+"lng_jp" = "Japonais";
+
+
+"err_unknow" = "Erreur inconnue.";
+"err_failed" = "Échec de la tentative de connexion.";
+"err_not_implemented" = "Ce type de connexion n'est pas encore implémenté.";
+"err_auth_apple" = "";
+"err_auth_google" = "";
+"err_auth_facebook" = "";
+"err_auth_insta" = "";
+"err_auth_twitter" = "";
+"err_map_calc" = "Impossible de convertir le TapGesture de la carte en GeoLocation.";
+"err_map_event_zoom" = "Aucun événement valide trouvé pour le zoom !";
+"err_map_coord" = "L'événement a des coordonnées non valides.";
+"error_map_search" = "Aucun emplacement trouvé pour la recherche.";
+"err_google_user" = "Échec de l'authentification Google, aucun utilisateur trouvé.";
+
+
+"agb_info1" = "Je confirme avoir ";
+"agb_title" = "Conditions générales d'utilisation";
+"agb_info2" = " lu et accepté ces conditions dans leur intégralité.";
+"agb_complete" = "1. Champ d'application\nLes présentes conditions générales d'utilisation (CGU) régissent l'utilisation de l'application Flashmob-Tracker (ci-après « l'Application ») ainsi que les services associés. En utilisant l'Application, les utilisateurs acceptent ces conditions.\n\n2. Fournisseur et opérateur de l'Application\nL'Application Flashmob-Tracker est exploitée par [Nom de l'entreprise], [Adresse de l'entreprise]. Pour toute question ou problème, veuillez nous contacter à [Adresse e-mail de contact].\n\n3. Description des services\nL'Application Flashmob-Tracker permet aux utilisateurs de trouver, gérer et organiser des événements de type flashmob. Les principales fonctionnalités de l'Application sont les suivantes :\n- Affichage des flashmobs à venir avec les détails (date, lieu, thème)\n- Visualisation géographique des lieux d'événements\n- Fonctionnalités de commentaires et de « j'aime » pour évaluer les événements et les artistes\n- Groupes d'utilisateurs (Artistes & Agences, Artistes, Invités)\n- Réservation d'un flashmob via des agences d'artistes\n- Notifications sur les nouveautés et mises à jour des événements\n\n4. Groupes d'utilisateurs et inscription\n- **Artistes & Agences** : Organisateurs enregistrés planifiant des événements flashmob.\n- **Artistes** : Utilisateurs souhaitant participer à un flashmob planifié.\n- **Invités** : Spectateurs souhaitant assister à un flashmob sans y participer activement.\n\n5. Utilisation de l'Application\nL'Application est destinée à un usage privé. Chaque utilisateur doit utiliser l'Application en conformité avec ces CGU et les lois en vigueur. Il est notamment interdit d'utiliser l'Application d'une manière qui enfreint les droits de tiers ou perturbe son bon fonctionnement.\n\n6. Responsabilités des utilisateurs\n- **Artistes & Agences** : Responsables de l'organisation des flashmobs et du respect des lois en vigueur lors de leur déroulement.\n- **Artistes** : Responsables du respect des conditions de participation aux flashmobs.\n- **Invités** : Responsables du respect des règles des événements et de l'absence de perturbations.\n\n7. Réservations et paiements\nLes utilisateurs peuvent réserver des événements flashmob via l'Application. Les réservations sont effectuées via les agences d'artistes inscrites dans l'Application. Des frais peuvent s'appliquer et seront affichés avant la validation de la réservation.\n\n8. Notifications\nLes utilisateurs peuvent configurer leurs notifications pour recevoir des informations sur les nouveaux événements, les mises à jour ou d'autres informations pertinentes. Les notifications peuvent être envoyées sous forme de notifications push ou d'e-mails.\n\n9. Clause de non-responsabilité\nLes opérateurs de l'Application ne sont pas responsables de l'exécution des événements flashmob ni des dommages pouvant survenir lors d'un événement. Les utilisateurs reconnaissent qu'ils participent aux événements flashmob à leurs propres risques. L'Application ne garantit ni la sécurité des événements ni le comportement des participants.\n\n10. Protection des données\nLes opérateurs de l'Application collectent et traitent les données personnelles uniquement en conformité avec la législation en vigueur sur la protection des données. Pour plus d'informations, veuillez consulter notre politique de confidentialité.\n\n11. Modification des CGU\nLes opérateurs se réservent le droit de modifier ces CGU à tout moment. Les modifications seront communiquées aux utilisateurs via l'Application ou par e-mail. L'utilisation continue de l'Application après notification des modifications implique l'acceptation des nouvelles CGU.\n\n12. Résiliation et désactivation\nLes utilisateurs peuvent supprimer leur compte à tout moment. Les opérateurs se réservent le droit de suspendre ou de supprimer les comptes en cas de violation des présentes CGU.\n\n13. Droit applicable et juridiction\nLe droit de [Pays/Région] s'applique et le tribunal compétent pour tout litige relatif à l'utilisation de l'Application est situé à Berlin.\n\n14. Dispositions finales\nSi une disposition de ces CGU est jugée invalide ou inapplicable, cela n'affecte pas la validité des autres dispositions.\n\nDate de dernière mise à jour : 12.02.2025";
+"dsgvo_complete" = "Politique de confidentialité de l'Application Flashmob-Tracker\n\n1. Informations générales\nLa protection de vos données personnelles est notre priorité. Cette politique de confidentialité explique quelles données nous collectons dans le cadre de l'utilisation de l'Application Flashmob-Tracker, comment nous les traitons et quels sont vos droits.\n\n2. Responsable du traitement\nLe responsable du traitement des données pour l'Application Flashmob-Tracker est :\nFlashmob-Tracker\nBerlin\ninfo@flashmob-tracker.com\n\n3. Données collectées\nNous collectons et traitons les données personnelles suivantes lorsque vous utilisez notre Application :\n- Données d'inscription : Nom, adresse e-mail, nom d'utilisateur, mot de passe\n- Informations de profil : Photo de profil, rôle d'artiste ou d'organisateur\n- Données liées aux événements : Participation aux flashmobs, évaluations, commentaires\n- Données de localisation : Lors de l'utilisation des fonctions de carte et de recherche\n- Informations de paiement : Si des réservations sont effectuées via l'Application\n- Données de communication : Messages et demandes adressées au support\n\n4. Finalités du traitement des données\nNous utilisons vos données pour :\n- Fournir et améliorer l'Application\n- Gérer les comptes utilisateurs et les profils\n- Afficher les événements flashmob et leurs localisations\n- Permettre les réservations et paiements\n- Envoyer des notifications et informations sur les événements\n- Sécuriser l'Application et prévenir les abus\n\n5. Base légale du traitement\nLe traitement de vos données est basé sur :\n- Exécution d'un contrat (Article 6(1)(b) RGPD) : Fonctionnalités de l'Application\n- Consentement (Article 6(1)(a) RGPD) : Traitement des données de localisation et notifications\n- Obligation légale (Article 6(1)(c) RGPD) : Conservation des données de paiement\n- Intérêts légitimes (Article 6(1)(f) RGPD) : Amélioration de l'Application, prévention des abus\n\n8. Vos droits\nVous disposez des droits suivants :\n- Droit d'accès (Article 15 RGPD)\n- Droit de rectification (Article 16 RGPD)\n- Droit à l'effacement (Article 17 RGPD)\n- Droit à la limitation du traitement (Article 18 RGPD)\n- Droit à la portabilité des données (Article 20 RGPD)\n- Droit d'opposition (Article 21 RGPD)\n- Droit de retirer votre consentement (Article 7(3) RGPD)\n\nContact :\nsteffen.schinke@gmail.com\n\nDernière mise à jour : 12.02.2025";
+"greet_title" = "Bienvenue sur Flashmob-Tracker !";
+"greet_description" = "Flashmob-Tracker est votre plateforme centrale pour découvrir, organiser et participer à des flashmobs. Recevez toutes les informations importantes sur les événements à venir, y compris l'heure, le lieu et le thème – avec une carte interactive.\n\nCe que vous trouverez :\n\nAperçu des événements : Détails complets des flashmobs planifiés\n\nCarte interactive : Visualisation en temps réel des lieux des événements\n\nInteraction communautaire : Les artistes peuvent s'inscrire aux événements, les invités obtiennent toutes les informations nécessaires\n\nRéservation par les organisateurs : Les flashmobs ne peuvent être réservés qu'auprès des agences et organisateurs d'artistes\n\nNotifications : Mises à jour personnalisées directement sur votre appareil\n\nFlashmob-Tracker connecte les artistes, agences et invités pour rendre les événements flashmob encore plus accessibles et passionnants. Rejoignez la communauté et vivez des moments uniques !";
+
+"ph_title" = "Titre";
+"ph_motto" = "Devise";
+"ph_desc" = "Description";

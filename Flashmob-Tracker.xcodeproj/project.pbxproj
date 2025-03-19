@@ -1,0 +1,961 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3803AA9C2D78596E00C6A3CA /* FlashmobLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3803AA9B2D78596900C6A3CA /* FlashmobLocation.swift */; };
+		3803FD462D8ABEF1006DE8B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3803FD452D8ABEF1006DE8B4 /* README.md */; };
+		3803FD492D8ABEFF006DE8B4 /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3803FD472D8ABEFF006DE8B4 /* header.jpg */; };
+		38070F692D78A41000CFFD61 /* DashboardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38070F682D78A40B00CFFD61 /* DashboardVM.swift */; };
+		38070F6B2D78A6FF00CFFD61 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38070F6A2D78A6F500CFFD61 /* EventDetail.swift */; };
+		380853F02D6E49B300EEA42D /* UIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380853EF2D6E49B300EEA42D /* UIPageControl.swift */; };
+		380853F22D6E49E300EEA42D /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380853F12D6E49E300EEA42D /* UIApplication.swift */; };
+		380B88E12D661EE70045EB0C /* RegExpNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B88E02D661EE70045EB0C /* RegExpNotation.swift */; };
+		380B8D282D66835A0045EB0C /* AppUserFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B8D272D6683440045EB0C /* AppUserFirebase.swift */; };
+		380B8D2A2D66837D0045EB0C /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B8D292D66836D0045EB0C /* Repository.swift */; };
+		380B8D2C2D66869E0045EB0C /* FireStoreKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B8D2B2D6686850045EB0C /* FireStoreKey.swift */; };
+		380CAE572D87670D001C2857 /* OrganizerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CAE562D876708001C2857 /* OrganizerDetail.swift */; };
+		380CAE592D877BE0001C2857 /* OrganizerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CAE582D877BDA001C2857 /* OrganizerVM.swift */; };
+		3822389C2D80A15C001C8D03 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3822389B2D80A14D001C8D03 /* Favorites.swift */; };
+		3826463F2D88C58800624754 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826463E2D88C58300624754 /* PDFViewer.swift */; };
+		3828B4F22D52B29B0010E18A /* AuthOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828B4F12D52B27A0010E18A /* AuthOption.swift */; };
+		383ACDBE2D80EC77003E45DD /* DetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ACDBD2D80EC6A003E45DD /* DetailVM.swift */; };
+		383ACDC02D80EF5F003E45DD /* ViewModelBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383ACDBF2D80EF43003E45DD /* ViewModelBaseClass.swift */; };
+		383CFB972D7A785C00A2CC4B /* FavoriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383CFB962D7A785700A2CC4B /* FavoriteList.swift */; };
+		383D62282D638CB100AA0DFB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D62272D638CB100AA0DFB /* Color.swift */; };
+		383D622A2D638F7700AA0DFB /* SheetViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D62292D638F6D00AA0DFB /* SheetViewer.swift */; };
+		384076FA2D512DD7009AA297 /* FirebaseAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384076F92D512DCC009AA297 /* FirebaseAuthentication.swift */; };
+		3840774A2D5158CF009AA297 /* Flashmob_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384077492D5158CF009AA297 /* Flashmob_TrackerApp.swift */; };
+		385413C32D7485C600573158 /* EventFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385413C22D7485A700573158 /* EventFirebase.swift */; };
+		385A0F842D5CD3FB00F37C24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A0F832D5CD3F600F37C24 /* ContentView.swift */; };
+		38636DDF2D67229400D8DA0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38636DDE2D67229400D8DA0B /* GoogleService-Info.plist */; };
+		38636DE22D6723AC00D8DA0B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38636DE12D6723AC00D8DA0B /* FirebaseAnalytics */; };
+		38636DE42D6723AC00D8DA0B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 38636DE32D6723AC00D8DA0B /* FirebaseAuth */; };
+		38636DE62D6723AC00D8DA0B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 38636DE52D6723AC00D8DA0B /* FirebaseCore */; };
+		38636DE82D6723AC00D8DA0B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 38636DE72D6723AC00D8DA0B /* FirebaseFirestore */; };
+		38636DEB2D6723E600D8DA0B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 38636DEA2D6723E600D8DA0B /* GoogleSignIn */; };
+		38636DED2D6723E600D8DA0B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 38636DEC2D6723E600D8DA0B /* GoogleSignInSwift */; };
+		3877575D2D6B9D8C0052ADBF /* FlashmobStoreFileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877575C2D6B9D8C0052ADBF /* FlashmobStoreFileExtension.swift */; };
+		3878715E2D794DEC00563346 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3878715D2D794DE700563346 /* Filter.swift */; };
+		387B93572D67BD6700D2AF06 /* FlashmobStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B93562D67BD5E00D2AF06 /* FlashmobStore.swift */; };
+		387B95502D67D77B00D2AF06 /* FlashmobStoreFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B954F2D67D76900D2AF06 /* FlashmobStoreFile.swift */; };
+		388A44942D515E0E0076A9AC /* NovaSquare-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 388A44932D515E0E0076A9AC /* NovaSquare-Regular.ttf */; };
+		388A44962D51694E0076A9AC /* Headline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A44952D51694E0076A9AC /* Headline.swift */; };
+		388A44982D516CFD0076A9AC /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A44972D516CFC0076A9AC /* SocialMedia.swift */; };
+		388A449A2D5182BC0076A9AC /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A44992D5182BC0076A9AC /* BorderTextField.swift */; };
+		388A449C2D5185380076A9AC /* BorderSecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A449B2D5185380076A9AC /* BorderSecureTextField.swift */; };
+		38906FD12D525E5100585AE3 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38906FD02D525E5100585AE3 /* Notifications.swift */; };
+		3894DEBD2D81D9E90058E95E /* MapUserMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894DEBC2D81D9E90058E95E /* MapUserMarker.swift */; };
+		3896F2E82D6ACF3500FDF319 /* FlashmobStoreFileSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3896F2E72D6ACF2A00FDF319 /* FlashmobStoreFileSource.swift */; };
+		3899F28C2D6C61D300860F9B /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3899F28B2D6C61CE00860F9B /* Create.swift */; };
+		38A5BC642D82472300865E27 /* ProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5BC632D82471B00865E27 /* ProfileVM.swift */; };
+		38A8C2E32D7E3C0300677770 /* MapImageMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A8C2E22D7E3C0300677770 /* MapImageMarker.swift */; };
+		38AD042E2D57DBB600C07DB3 /* ProfileImageFileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD042D2D57DB9B00C07DB3 /* ProfileImageFileVM.swift */; };
+		38AD04302D57DBFF00C07DB3 /* ProfileImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD042F2D57DBEC00C07DB3 /* ProfileImageFile.swift */; };
+		38B4EDC72D6C990D00E2B434 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4EDC62D6C990900E2B434 /* Event.swift */; };
+		38B4EDC92D6C9E8A00E2B434 /* ButtonDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4EDC82D6C9E8400E2B434 /* ButtonDismiss.swift */; };
+		38B4EDCD2D6CA95300E2B434 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4EDCC2D6CA95300E2B434 /* View.swift */; };
+		38B4EDCF2D6CB0AD00E2B434 /* EventVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4EDCE2D6CB0A500E2B434 /* EventVM.swift */; };
+		38B697FC2D5BE030000C1F73 /* MapRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B697FB2D5BE012000C1F73 /* MapRect.swift */; };
+		38B950272D77B9BF00A0E01B /* FlashmobStoreKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B950262D77B9AD00A0E01B /* FlashmobStoreKey.swift */; };
+		38BBFAB62D75C31B006FBF8D /* MapVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BBFAB52D75C317006FBF8D /* MapVM.swift */; };
+		38C45C5B2D4FE2FE00F9C6A6 /* NavLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C5A2D4FE2F900F9C6A6 /* NavLaunch.swift */; };
+		38C45C5D2D4FE35E00F9C6A6 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C5C2D4FE35300F9C6A6 /* AppSettings.swift */; };
+		38C45C5F2D4FE39400F9C6A6 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C5E2D4FE38E00F9C6A6 /* Dashboard.swift */; };
+		38C45C622D4FE45E00F9C6A6 /* FlashmobMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C612D4FE45500F9C6A6 /* FlashmobMap.swift */; };
+		38C45C6A2D4FE6A000F9C6A6 /* NavTabIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C692D4FE68300F9C6A6 /* NavTabIndex.swift */; };
+		38C45C6C2D4FE9AF00F9C6A6 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C6B2D4FE99000F9C6A6 /* AppUser.swift */; };
+		38C45C6E2D4FEC6500F9C6A6 /* AuthUserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C6D2D4FEC5500F9C6A6 /* AuthUserVM.swift */; };
+		38C45C702D4FECA500F9C6A6 /* AppUserRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C6F2D4FEC9F00F9C6A6 /* AppUserRule.swift */; };
+		38C45C722D4FF1C300F9C6A6 /* AppStorageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C712D4FF1C300F9C6A6 /* AppStorageKey.swift */; };
+		38C45C752D4FF22500F9C6A6 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C742D4FF22000F9C6A6 /* SignIn.swift */; };
+		38C45C772D4FF23600F9C6A6 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C762D4FF23000F9C6A6 /* SignUp.swift */; };
+		38C45C792D4FF26D00F9C6A6 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C782D4FF26600F9C6A6 /* Payment.swift */; };
+		38C45C7E2D4FF7ED00F9C6A6 /* ButtonSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C7D2D4FF7E600F9C6A6 /* ButtonSquare.swift */; };
+		38C45C802D4FF80100F9C6A6 /* ButtonRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C45C7F2D4FF7FC00F9C6A6 /* ButtonRect.swift */; };
+		38C4CB4B2D78F37700ACC695 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C4CB4A2D78F36F00ACC695 /* ListItem.swift */; };
+		38C4CB8C2D79244B00ACC695 /* FlashmobMedias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C4CB8B2D79244B00ACC695 /* FlashmobMedias.swift */; };
+		38C80AF02D83ABBA00FF81AB /* Organizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C80AEF2D83ABB800FF81AB /* Organizer.swift */; };
+		38C80AF22D843E9F00FF81AB /* FlashmobAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C80AF12D843E9F00FF81AB /* FlashmobAnnotation.swift */; };
+		38C80AF42D8459E200FF81AB /* MapMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C80AF32D8459E200FF81AB /* MapMarker.swift */; };
+		38C80AF62D8462C700FF81AB /* MapOrgMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C80AF52D8462C700FF81AB /* MapOrgMarker.swift */; };
+		38CB2A8F2D6D1F4900886185 /* SFIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB2A8E2D6D1F4300886185 /* SFIcon.swift */; };
+		38D00A8A2D88B0D500B0E90C /* NavLinkDestInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D00A892D88B0CD00B0E90C /* NavLinkDestInfos.swift */; };
+		38DCE0342D6BDF5500262F20 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DCE0332D6BDF5500262F20 /* Location.swift */; };
+		38E15BED2D75F71D0012D19F /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E15BEC2D75F71D0012D19F /* CLLocationCoordinate2D.swift */; };
+		38E8844D2D68684400A7263D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E8844C2D68683600A7263D /* Profile.swift */; };
+		38ECF3ED2D53D49500B3A34E /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ECF3EC2D53D46800B3A34E /* Greeting.swift */; };
+		38ECF3EF2D53D61500B3A34E /* AuthState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ECF3EE2D53D61100B3A34E /* AuthState.swift */; };
+		38ECF3F12D5410F000B3A34E /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ECF3F02D5410EB00B3A34E /* Launch.swift */; };
+		38F1FF402D6E05EE00AB394E /* HeaderDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F1FF3F2D6E05EE00AB394E /* HeaderDisplayMode.swift */; };
+		38F289F82D4D3A4700FC39E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F289F32D4D3A4700FC39E1 /* Assets.xcassets */; };
+		38F289F92D4D3A4700FC39E1 /* AuthLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F289F42D4D3A4700FC39E1 /* AuthLaunch.swift */; };
+		38F28A002D4D3B1F00FC39E1 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F289FF2D4D3B1F00FC39E1 /* Background.swift */; };
+		38F28A042D4D9D9800FC39E1 /* AppSettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F28A032D4D9D8900FC39E1 /* AppSettingsVM.swift */; };
+		38F72D8E2D6E859A003CC790 /* PDFFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F72D8D2D6E858F003CC790 /* PDFFile.swift */; };
+		38F72D902D6E8694003CC790 /* PDFFileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F72D8F2D6E8692003CC790 /* PDFFileVM.swift */; };
+		38F72DD22D6E8FC6003CC790 /* MediaFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F72DD12D6E8F88003CC790 /* MediaFile.swift */; };
+		38F72DD42D6E9015003CC790 /* MediaFileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F72DD32D6E9010003CC790 /* MediaFileVM.swift */; };
+		38F958392D552E9A00A5A529 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38F958382D552E9A00A5A529 /* Localizable.strings */; };
+		38F9583C2D553E2100A5A529 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9583B2D553E0C00A5A529 /* AppLanguage.swift */; };
+		38F958422D555E5500A5A529 /* AppLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F958412D555E5500A5A529 /* AppLocalization.swift */; };
+		38FD8CCB2D7B48AD00AA2157 /* EventFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FD8CCA2D7B48A100AA2157 /* EventFilter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3803AA9B2D78596900C6A3CA /* FlashmobLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashmobLocation.swift; sourceTree = "<group>"; };
+		3803FD452D8ABEF1006DE8B4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3803FD472D8ABEFF006DE8B4 /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
+		38070F682D78A40B00CFFD61 /* DashboardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVM.swift; sourceTree = "<group>"; };
+		38070F6A2D78A6F500CFFD61 /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		380853EF2D6E49B300EEA42D /* UIPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControl.swift; sourceTree = "<group>"; };
+		380853F12D6E49E300EEA42D /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		380B88E02D661EE70045EB0C /* RegExpNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegExpNotation.swift; sourceTree = "<group>"; };
+		380B8D272D6683440045EB0C /* AppUserFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserFirebase.swift; sourceTree = "<group>"; };
+		380B8D292D66836D0045EB0C /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		380B8D2B2D6686850045EB0C /* FireStoreKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireStoreKey.swift; sourceTree = "<group>"; };
+		380CAE562D876708001C2857 /* OrganizerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerDetail.swift; sourceTree = "<group>"; };
+		380CAE582D877BDA001C2857 /* OrganizerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerVM.swift; sourceTree = "<group>"; };
+		3822389B2D80A14D001C8D03 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		3826463E2D88C58300624754 /* PDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
+		3828B4F12D52B27A0010E18A /* AuthOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthOption.swift; sourceTree = "<group>"; };
+		383ACDBD2D80EC6A003E45DD /* DetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVM.swift; sourceTree = "<group>"; };
+		383ACDBF2D80EF43003E45DD /* ViewModelBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBaseClass.swift; sourceTree = "<group>"; };
+		383CFB962D7A785700A2CC4B /* FavoriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteList.swift; sourceTree = "<group>"; };
+		383D62272D638CB100AA0DFB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		383D62292D638F6D00AA0DFB /* SheetViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewer.swift; sourceTree = "<group>"; };
+		384076F92D512DCC009AA297 /* FirebaseAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthentication.swift; sourceTree = "<group>"; };
+		384077492D5158CF009AA297 /* Flashmob_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashmob_TrackerApp.swift; sourceTree = "<group>"; };
+		385413C22D7485A700573158 /* EventFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFirebase.swift; sourceTree = "<group>"; };
+		385A0F832D5CD3F600F37C24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		385A0F852D5CEC1000F37C24 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		385A0F862D5CEC2800F37C24 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		385A0F872D5CEC3800F37C24 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38636DDE2D67229400D8DA0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3877575C2D6B9D8C0052ADBF /* FlashmobStoreFileExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashmobStoreFileExtension.swift; sourceTree = "<group>"; };
+		3878715D2D794DE700563346 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		387B93562D67BD5E00D2AF06 /* FlashmobStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashmobStore.swift; sourceTree = "<group>"; };
+		387B954F2D67D76900D2AF06 /* FlashmobStoreFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashmobStoreFile.swift; sourceTree = "<group>"; };
+		3888E0982D621A1200324697 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3888E0992D621A3D00324697 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		388A44932D515E0E0076A9AC /* NovaSquare-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NovaSquare-Regular.ttf"; sourceTree = "<group>"; };
+		388A44952D51694E0076A9AC /* Headline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headline.swift; sourceTree = "<group>"; };
+		388A44972D516CFC0076A9AC /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
+		388A44992D5182BC0076A9AC /* BorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderTextField.swift; sourceTree = "<group>"; };
+		388A449B2D5185380076A9AC /* BorderSecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderSecureTextField.swift; sourceTree = "<group>"; };
+		38906FD02D525E5100585AE3 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		3894DEBC2D81D9E90058E95E /* MapUserMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUserMarker.swift; sourceTree = "<group>"; };
+		3896F2E72D6ACF2A00FDF319 /* FlashmobStoreFileSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashmobStoreFileSource.swift; sourceTree = "<group>"; };
+		3899F28B2D6C61CE00860F9B /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
+		38A5BC632D82471B00865E27 /* ProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVM.swift; sourceTree = "<group>"; };
+		38A8C2E22D7E3C0300677770 /* MapImageMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapImageMarker.swift; sourceTree = "<group>"; };
+		38AD042D2D57DB9B00C07DB3 /* ProfileImageFileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageFileVM.swift; sourceTree = "<group>"; };
+		38AD042F2D57DBEC00C07DB3 /* ProfileImageFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageFile.swift; sourceTree = "<group>"; };
+		38B4EDC62D6C990900E2B434 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		38B4EDC82D6C9E8400E2B434 /* ButtonDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDismiss.swift; sourceTree = "<group>"; };
+		38B4EDCC2D6CA95300E2B434 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		38B4EDCE2D6CB0A500E2B434 /* EventVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVM.swift; sourceTree = "<group>"; };
+		38B697FB2D5BE012000C1F73 /* MapRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRect.swift; sourceTree = "<group>"; };
+		38B950262D77B9AD00A0E01B /* FlashmobStoreKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashmobStoreKey.swift; sourceTree = "<group>"; };
+		38BBFAB52D75C317006FBF8D /* MapVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVM.swift; sourceTree = "<group>"; };
+		38C45C5A2D4FE2F900F9C6A6 /* NavLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLaunch.swift; sourceTree = "<group>"; };
+		38C45C5C2D4FE35300F9C6A6 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		38C45C5E2D4FE38E00F9C6A6 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		38C45C612D4FE45500F9C6A6 /* FlashmobMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashmobMap.swift; sourceTree = "<group>"; };
+		38C45C692D4FE68300F9C6A6 /* NavTabIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTabIndex.swift; sourceTree = "<group>"; };
+		38C45C6B2D4FE99000F9C6A6 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		38C45C6D2D4FEC5500F9C6A6 /* AuthUserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUserVM.swift; sourceTree = "<group>"; };
+		38C45C6F2D4FEC9F00F9C6A6 /* AppUserRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserRule.swift; sourceTree = "<group>"; };
+		38C45C712D4FF1C300F9C6A6 /* AppStorageKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageKey.swift; sourceTree = "<group>"; };
+		38C45C742D4FF22000F9C6A6 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		38C45C762D4FF23000F9C6A6 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		38C45C782D4FF26600F9C6A6 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		38C45C7D2D4FF7E600F9C6A6 /* ButtonSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSquare.swift; sourceTree = "<group>"; };
+		38C45C7F2D4FF7FC00F9C6A6 /* ButtonRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRect.swift; sourceTree = "<group>"; };
+		38C4CB4A2D78F36F00ACC695 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		38C4CB8B2D79244B00ACC695 /* FlashmobMedias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashmobMedias.swift; sourceTree = "<group>"; };
+		38C80AEF2D83ABB800FF81AB /* Organizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organizer.swift; sourceTree = "<group>"; };
+		38C80AF12D843E9F00FF81AB /* FlashmobAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashmobAnnotation.swift; sourceTree = "<group>"; };
+		38C80AF32D8459E200FF81AB /* MapMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarker.swift; sourceTree = "<group>"; };
+		38C80AF52D8462C700FF81AB /* MapOrgMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOrgMarker.swift; sourceTree = "<group>"; };
+		38CB2A8E2D6D1F4300886185 /* SFIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFIcon.swift; sourceTree = "<group>"; };
+		38D00A892D88B0CD00B0E90C /* NavLinkDestInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkDestInfos.swift; sourceTree = "<group>"; };
+		38DCE0332D6BDF5500262F20 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		38E15BEC2D75F71D0012D19F /* CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
+		38E8844C2D68683600A7263D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		38ECF3E72D53BD0500B3A34E /* Flashmob-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flashmob-Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38ECF3EC2D53D46800B3A34E /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
+		38ECF3EE2D53D61100B3A34E /* AuthState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthState.swift; sourceTree = "<group>"; };
+		38ECF3F02D5410EB00B3A34E /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		38F1FF3F2D6E05EE00AB394E /* HeaderDisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDisplayMode.swift; sourceTree = "<group>"; };
+		38F289F32D4D3A4700FC39E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38F289F42D4D3A4700FC39E1 /* AuthLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthLaunch.swift; sourceTree = "<group>"; };
+		38F289FF2D4D3B1F00FC39E1 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		38F28A032D4D9D8900FC39E1 /* AppSettingsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsVM.swift; sourceTree = "<group>"; };
+		38F72D8D2D6E858F003CC790 /* PDFFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFFile.swift; sourceTree = "<group>"; };
+		38F72D8F2D6E8692003CC790 /* PDFFileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFFileVM.swift; sourceTree = "<group>"; };
+		38F72DD12D6E8F88003CC790 /* MediaFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFile.swift; sourceTree = "<group>"; };
+		38F72DD32D6E9010003CC790 /* MediaFileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFileVM.swift; sourceTree = "<group>"; };
+		38F958372D552E9A00A5A529 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38F9583B2D553E0C00A5A529 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		38F958412D555E5500A5A529 /* AppLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocalization.swift; sourceTree = "<group>"; };
+		38FD8CCA2D7B48A100AA2157 /* EventFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFilter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38F289DD2D4D39E300FC39E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38636DEB2D6723E600D8DA0B /* GoogleSignIn in Frameworks */,
+				38636DE22D6723AC00D8DA0B /* FirebaseAnalytics in Frameworks */,
+				38636DE82D6723AC00D8DA0B /* FirebaseFirestore in Frameworks */,
+				38636DED2D6723E600D8DA0B /* GoogleSignInSwift in Frameworks */,
+				38636DE62D6723AC00D8DA0B /* FirebaseCore in Frameworks */,
+				38636DE42D6723AC00D8DA0B /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3803FD482D8ABEFF006DE8B4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3803FD472D8ABEFF006DE8B4 /* header.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		380B8D262D6682B60045EB0C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				385413C22D7485A700573158 /* EventFirebase.swift */,
+				380B8D272D6683440045EB0C /* AppUserFirebase.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		380CAE552D8766FF001C2857 /* Organizers */ = {
+			isa = PBXGroup;
+			children = (
+				380CAE562D876708001C2857 /* OrganizerDetail.swift */,
+			);
+			path = Organizers;
+			sourceTree = "<group>";
+		};
+		3828B4EE2D52ACA70010E18A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38E15BEC2D75F71D0012D19F /* CLLocationCoordinate2D.swift */,
+				383D62272D638CB100AA0DFB /* Color.swift */,
+				380853F12D6E49E300EEA42D /* UIApplication.swift */,
+				380853EF2D6E49B300EEA42D /* UIPageControl.swift */,
+				38B4EDCC2D6CA95300E2B434 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		384076F82D512DC2009AA297 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3822389B2D80A14D001C8D03 /* Favorites.swift */,
+				38F958412D555E5500A5A529 /* AppLocalization.swift */,
+				387B93562D67BD5E00D2AF06 /* FlashmobStore.swift */,
+				384076F92D512DCC009AA297 /* FirebaseAuthentication.swift */,
+				38DCE0332D6BDF5500262F20 /* Location.swift */,
+				38906FD02D525E5100585AE3 /* Notifications.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		385A0F812D5CCAEC00F37C24 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				388A44932D515E0E0076A9AC /* NovaSquare-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		385A0F822D5CD3EB00F37C24 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				38C80AF12D843E9F00FF81AB /* FlashmobAnnotation.swift */,
+				385A0F832D5CD3F600F37C24 /* ContentView.swift */,
+				380B8D292D66836D0045EB0C /* Repository.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		387B93552D67B95D00D2AF06 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				38F958382D552E9A00A5A529 /* Localizable.strings */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		3899F28D2D6C710C00860F9B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				38E8844C2D68683600A7263D /* Profile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3899F28E2D6C711C00860F9B /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				3826463E2D88C58300624754 /* PDFViewer.swift */,
+				3878715D2D794DE700563346 /* Filter.swift */,
+				38C4CB4A2D78F36F00ACC695 /* ListItem.swift */,
+				38070F6A2D78A6F500CFFD61 /* EventDetail.swift */,
+				3899F28B2D6C61CE00860F9B /* Create.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		38C45C672D4FE57A00F9C6A6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				38C45C5A2D4FE2F900F9C6A6 /* NavLaunch.swift */,
+				38C45C612D4FE45500F9C6A6 /* FlashmobMap.swift */,
+				38C45C5C2D4FE35300F9C6A6 /* AppSettings.swift */,
+				38C45C5E2D4FE38E00F9C6A6 /* Dashboard.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		38C45C682D4FE67600F9C6A6 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				38F9583B2D553E0C00A5A529 /* AppLanguage.swift */,
+				38C45C712D4FF1C300F9C6A6 /* AppStorageKey.swift */,
+				38C45C6F2D4FEC9F00F9C6A6 /* AppUserRule.swift */,
+				3828B4F12D52B27A0010E18A /* AuthOption.swift */,
+				38ECF3EE2D53D61100B3A34E /* AuthState.swift */,
+				380B8D2B2D6686850045EB0C /* FireStoreKey.swift */,
+				38B950262D77B9AD00A0E01B /* FlashmobStoreKey.swift */,
+				3877575C2D6B9D8C0052ADBF /* FlashmobStoreFileExtension.swift */,
+				3896F2E72D6ACF2A00FDF319 /* FlashmobStoreFileSource.swift */,
+				38C45C692D4FE68300F9C6A6 /* NavTabIndex.swift */,
+				380B88E02D661EE70045EB0C /* RegExpNotation.swift */,
+				38CB2A8E2D6D1F4300886185 /* SFIcon.swift */,
+				38F1FF3F2D6E05EE00AB394E /* HeaderDisplayMode.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		38C45C732D4FF20700F9C6A6 /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				38F289F42D4D3A4700FC39E1 /* AuthLaunch.swift */,
+				38ECF3EC2D53D46800B3A34E /* Greeting.swift */,
+				38C45C742D4FF22000F9C6A6 /* SignIn.swift */,
+				38C45C762D4FF23000F9C6A6 /* SignUp.swift */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		38C45C7A2D4FF28700F9C6A6 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				38C45C782D4FF26600F9C6A6 /* Payment.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		38E8844B2D68682600A7263D /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				383D62292D638F6D00AA0DFB /* SheetViewer.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		38F289D72D4D39E300FC39E1 = {
+			isa = PBXGroup;
+			children = (
+				3803FD482D8ABEFF006DE8B4 /* images */,
+				3803FD452D8ABEF1006DE8B4 /* README.md */,
+				38F289F62D4D3A4700FC39E1 /* Flashmob-Tracker */,
+				38ECF3E72D53BD0500B3A34E /* Flashmob-Tracker.app */,
+				38636DDE2D67229400D8DA0B /* GoogleService-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		38F289F62D4D3A4700FC39E1 /* Flashmob-Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				387B93552D67B95D00D2AF06 /* Languages */,
+				38C45C682D4FE67600F9C6A6 /* Enums */,
+				3828B4EE2D52ACA70010E18A /* Extensions */,
+				385A0F812D5CCAEC00F37C24 /* Fonts */,
+				38F289FD2D4D3A6600FC39E1 /* Models */,
+				385A0F822D5CD3EB00F37C24 /* Protocols */,
+				380B8D262D6682B60045EB0C /* Repositories */,
+				384076F82D512DC2009AA297 /* Services */,
+				38F289FE2D4D3B1800FC39E1 /* Templates */,
+				38F289FC2D4D3A5600FC39E1 /* ViewModels */,
+				38F289FB2D4D3A4C00FC39E1 /* Views */,
+				38F289F32D4D3A4700FC39E1 /* Assets.xcassets */,
+				384077492D5158CF009AA297 /* Flashmob_TrackerApp.swift */,
+			);
+			path = "Flashmob-Tracker";
+			sourceTree = "<group>";
+		};
+		38F289FB2D4D3A4C00FC39E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				380CAE552D8766FF001C2857 /* Organizers */,
+				3899F28E2D6C711C00860F9B /* Events */,
+				3899F28D2D6C710C00860F9B /* Profile */,
+				38E8844B2D68682600A7263D /* Sheets */,
+				38C45C732D4FF20700F9C6A6 /* Authentification */,
+				38C45C672D4FE57A00F9C6A6 /* Navigation */,
+				38C45C7A2D4FF28700F9C6A6 /* Payment */,
+				38ECF3F02D5410EB00B3A34E /* Launch.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		38F289FC2D4D3A5600FC39E1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				380CAE582D877BDA001C2857 /* OrganizerVM.swift */,
+				38A5BC632D82471B00865E27 /* ProfileVM.swift */,
+				383ACDBF2D80EF43003E45DD /* ViewModelBaseClass.swift */,
+				383ACDBD2D80EC6A003E45DD /* DetailVM.swift */,
+				38070F682D78A40B00CFFD61 /* DashboardVM.swift */,
+				38BBFAB52D75C317006FBF8D /* MapVM.swift */,
+				38F72DD32D6E9010003CC790 /* MediaFileVM.swift */,
+				38F72D8F2D6E8692003CC790 /* PDFFileVM.swift */,
+				38B4EDCE2D6CB0A500E2B434 /* EventVM.swift */,
+				38AD042D2D57DB9B00C07DB3 /* ProfileImageFileVM.swift */,
+				38C45C6D2D4FEC5500F9C6A6 /* AuthUserVM.swift */,
+				38F28A032D4D9D8900FC39E1 /* AppSettingsVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		38F289FD2D4D3A6600FC39E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38D00A892D88B0CD00B0E90C /* NavLinkDestInfos.swift */,
+				38C80AEF2D83ABB800FF81AB /* Organizer.swift */,
+				383CFB962D7A785700A2CC4B /* FavoriteList.swift */,
+				38C45C6B2D4FE99000F9C6A6 /* AppUser.swift */,
+				38B4EDC62D6C990900E2B434 /* Event.swift */,
+				38FD8CCA2D7B48A100AA2157 /* EventFilter.swift */,
+				3803AA9B2D78596900C6A3CA /* FlashmobLocation.swift */,
+				387B954F2D67D76900D2AF06 /* FlashmobStoreFile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38F289FE2D4D3B1800FC39E1 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				38F72DD02D6E880F003CC790 /* Pickers */,
+				38F289FF2D4D3B1F00FC39E1 /* Background.swift */,
+				388A449B2D5185380076A9AC /* BorderSecureTextField.swift */,
+				388A44992D5182BC0076A9AC /* BorderTextField.swift */,
+				38B4EDC82D6C9E8400E2B434 /* ButtonDismiss.swift */,
+				38C45C7F2D4FF7FC00F9C6A6 /* ButtonRect.swift */,
+				38C45C7D2D4FF7E600F9C6A6 /* ButtonSquare.swift */,
+				38C4CB8B2D79244B00ACC695 /* FlashmobMedias.swift */,
+				388A44952D51694E0076A9AC /* Headline.swift */,
+				38C80AF32D8459E200FF81AB /* MapMarker.swift */,
+				38A8C2E22D7E3C0300677770 /* MapImageMarker.swift */,
+				38C80AF52D8462C700FF81AB /* MapOrgMarker.swift */,
+				3894DEBC2D81D9E90058E95E /* MapUserMarker.swift */,
+				38B697FB2D5BE012000C1F73 /* MapRect.swift */,
+				388A44972D516CFC0076A9AC /* SocialMedia.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		38F72DD02D6E880F003CC790 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				38F72DD12D6E8F88003CC790 /* MediaFile.swift */,
+				38F72D8D2D6E858F003CC790 /* PDFFile.swift */,
+				38AD042F2D57DBEC00C07DB3 /* ProfileImageFile.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38F289DF2D4D39E300FC39E1 /* Flashmob-Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F289EE2D4D39E400FC39E1 /* Build configuration list for PBXNativeTarget "Flashmob-Tracker" */;
+			buildPhases = (
+				38F289DC2D4D39E300FC39E1 /* Sources */,
+				38F289DD2D4D39E300FC39E1 /* Frameworks */,
+				38F289DE2D4D39E300FC39E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flashmob-Tracker";
+			packageProductDependencies = (
+				38636DE12D6723AC00D8DA0B /* FirebaseAnalytics */,
+				38636DE32D6723AC00D8DA0B /* FirebaseAuth */,
+				38636DE52D6723AC00D8DA0B /* FirebaseCore */,
+				38636DE72D6723AC00D8DA0B /* FirebaseFirestore */,
+				38636DEA2D6723E600D8DA0B /* GoogleSignIn */,
+				38636DEC2D6723E600D8DA0B /* GoogleSignInSwift */,
+			);
+			productName = "Flashmob-Tracker";
+			productReference = 38ECF3E72D53BD0500B3A34E /* Flashmob-Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38F289D82D4D39E300FC39E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					38F289DF2D4D39E300FC39E1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 38F289DB2D4D39E300FC39E1 /* Build configuration list for PBXProject "Flashmob-Tracker" */;
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				fr,
+				"zh-Hans",
+				ja,
+				"en-US",
+				"en-GB",
+			);
+			mainGroup = 38F289D72D4D39E300FC39E1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				38636DE02D6723AC00D8DA0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				38636DE92D6723E600D8DA0B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 38F289D72D4D39E300FC39E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38F289DF2D4D39E300FC39E1 /* Flashmob-Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38F289DE2D4D39E300FC39E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38636DDF2D67229400D8DA0B /* GoogleService-Info.plist in Resources */,
+				38F958392D552E9A00A5A529 /* Localizable.strings in Resources */,
+				3803FD492D8ABEFF006DE8B4 /* header.jpg in Resources */,
+				3803FD462D8ABEF1006DE8B4 /* README.md in Resources */,
+				388A44942D515E0E0076A9AC /* NovaSquare-Regular.ttf in Resources */,
+				38F289F82D4D3A4700FC39E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38F289DC2D4D39E300FC39E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C45C7E2D4FF7ED00F9C6A6 /* ButtonSquare.swift in Sources */,
+				380B8D2C2D66869E0045EB0C /* FireStoreKey.swift in Sources */,
+				38F289F92D4D3A4700FC39E1 /* AuthLaunch.swift in Sources */,
+				38E8844D2D68684400A7263D /* Profile.swift in Sources */,
+				38ECF3F12D5410F000B3A34E /* Launch.swift in Sources */,
+				38C45C702D4FECA500F9C6A6 /* AppUserRule.swift in Sources */,
+				38F1FF402D6E05EE00AB394E /* HeaderDisplayMode.swift in Sources */,
+				38F72DD42D6E9015003CC790 /* MediaFileVM.swift in Sources */,
+				387B93572D67BD6700D2AF06 /* FlashmobStore.swift in Sources */,
+				38F72D8E2D6E859A003CC790 /* PDFFile.swift in Sources */,
+				380B8D282D66835A0045EB0C /* AppUserFirebase.swift in Sources */,
+				38AD04302D57DBFF00C07DB3 /* ProfileImageFile.swift in Sources */,
+				380B8D2A2D66837D0045EB0C /* Repository.swift in Sources */,
+				38FD8CCB2D7B48AD00AA2157 /* EventFilter.swift in Sources */,
+				38F72DD22D6E8FC6003CC790 /* MediaFile.swift in Sources */,
+				38B697FC2D5BE030000C1F73 /* MapRect.swift in Sources */,
+				388A449A2D5182BC0076A9AC /* BorderTextField.swift in Sources */,
+				383D622A2D638F7700AA0DFB /* SheetViewer.swift in Sources */,
+				380B88E12D661EE70045EB0C /* RegExpNotation.swift in Sources */,
+				388A44982D516CFD0076A9AC /* SocialMedia.swift in Sources */,
+				38C45C5F2D4FE39400F9C6A6 /* Dashboard.swift in Sources */,
+				38C45C772D4FF23600F9C6A6 /* SignUp.swift in Sources */,
+				384076FA2D512DD7009AA297 /* FirebaseAuthentication.swift in Sources */,
+				38B4EDCD2D6CA95300E2B434 /* View.swift in Sources */,
+				38C45C6E2D4FEC6500F9C6A6 /* AuthUserVM.swift in Sources */,
+				3840774A2D5158CF009AA297 /* Flashmob_TrackerApp.swift in Sources */,
+				38F958422D555E5500A5A529 /* AppLocalization.swift in Sources */,
+				380853F22D6E49E300EEA42D /* UIApplication.swift in Sources */,
+				38B4EDC72D6C990D00E2B434 /* Event.swift in Sources */,
+				38A5BC642D82472300865E27 /* ProfileVM.swift in Sources */,
+				38BBFAB62D75C31B006FBF8D /* MapVM.swift in Sources */,
+				38B950272D77B9BF00A0E01B /* FlashmobStoreKey.swift in Sources */,
+				38E15BED2D75F71D0012D19F /* CLLocationCoordinate2D.swift in Sources */,
+				38C45C6C2D4FE9AF00F9C6A6 /* AppUser.swift in Sources */,
+				38A8C2E32D7E3C0300677770 /* MapImageMarker.swift in Sources */,
+				38B4EDC92D6C9E8A00E2B434 /* ButtonDismiss.swift in Sources */,
+				3894DEBD2D81D9E90058E95E /* MapUserMarker.swift in Sources */,
+				38070F6B2D78A6FF00CFFD61 /* EventDetail.swift in Sources */,
+				383ACDBE2D80EC77003E45DD /* DetailVM.swift in Sources */,
+				387B95502D67D77B00D2AF06 /* FlashmobStoreFile.swift in Sources */,
+				3877575D2D6B9D8C0052ADBF /* FlashmobStoreFileExtension.swift in Sources */,
+				38C80AF02D83ABBA00FF81AB /* Organizer.swift in Sources */,
+				383ACDC02D80EF5F003E45DD /* ViewModelBaseClass.swift in Sources */,
+				380CAE572D87670D001C2857 /* OrganizerDetail.swift in Sources */,
+				385A0F842D5CD3FB00F37C24 /* ContentView.swift in Sources */,
+				385413C32D7485C600573158 /* EventFirebase.swift in Sources */,
+				38C45C622D4FE45E00F9C6A6 /* FlashmobMap.swift in Sources */,
+				3826463F2D88C58800624754 /* PDFViewer.swift in Sources */,
+				38C45C5D2D4FE35E00F9C6A6 /* AppSettings.swift in Sources */,
+				38C45C5B2D4FE2FE00F9C6A6 /* NavLaunch.swift in Sources */,
+				38ECF3EF2D53D61500B3A34E /* AuthState.swift in Sources */,
+				38906FD12D525E5100585AE3 /* Notifications.swift in Sources */,
+				38C80AF42D8459E200FF81AB /* MapMarker.swift in Sources */,
+				38C80AF22D843E9F00FF81AB /* FlashmobAnnotation.swift in Sources */,
+				3896F2E82D6ACF3500FDF319 /* FlashmobStoreFileSource.swift in Sources */,
+				3822389C2D80A15C001C8D03 /* Favorites.swift in Sources */,
+				383CFB972D7A785C00A2CC4B /* FavoriteList.swift in Sources */,
+				3803AA9C2D78596E00C6A3CA /* FlashmobLocation.swift in Sources */,
+				38F28A042D4D9D9800FC39E1 /* AppSettingsVM.swift in Sources */,
+				38DCE0342D6BDF5500262F20 /* Location.swift in Sources */,
+				38CB2A8F2D6D1F4900886185 /* SFIcon.swift in Sources */,
+				380CAE592D877BE0001C2857 /* OrganizerVM.swift in Sources */,
+				38ECF3ED2D53D49500B3A34E /* Greeting.swift in Sources */,
+				38C80AF62D8462C700FF81AB /* MapOrgMarker.swift in Sources */,
+				38070F692D78A41000CFFD61 /* DashboardVM.swift in Sources */,
+				38F9583C2D553E2100A5A529 /* AppLanguage.swift in Sources */,
+				38C4CB4B2D78F37700ACC695 /* ListItem.swift in Sources */,
+				38C45C722D4FF1C300F9C6A6 /* AppStorageKey.swift in Sources */,
+				3828B4F22D52B29B0010E18A /* AuthOption.swift in Sources */,
+				38F28A002D4D3B1F00FC39E1 /* Background.swift in Sources */,
+				388A44962D51694E0076A9AC /* Headline.swift in Sources */,
+				38AD042E2D57DBB600C07DB3 /* ProfileImageFileVM.swift in Sources */,
+				38C4CB8C2D79244B00ACC695 /* FlashmobMedias.swift in Sources */,
+				38C45C6A2D4FE6A000F9C6A6 /* NavTabIndex.swift in Sources */,
+				383D62282D638CB100AA0DFB /* Color.swift in Sources */,
+				38D00A8A2D88B0D500B0E90C /* NavLinkDestInfos.swift in Sources */,
+				38C45C802D4FF80100F9C6A6 /* ButtonRect.swift in Sources */,
+				38C45C792D4FF26D00F9C6A6 /* Payment.swift in Sources */,
+				3878715E2D794DEC00563346 /* Filter.swift in Sources */,
+				38C45C752D4FF22500F9C6A6 /* SignIn.swift in Sources */,
+				38F72D902D6E8694003CC790 /* PDFFileVM.swift in Sources */,
+				388A449C2D5185380076A9AC /* BorderSecureTextField.swift in Sources */,
+				380853F02D6E49B300EEA42D /* UIPageControl.swift in Sources */,
+				3899F28C2D6C61D300860F9B /* Create.swift in Sources */,
+				38B4EDCF2D6CB0AD00E2B434 /* EventVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38F958382D552E9A00A5A529 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38F958372D552E9A00A5A529 /* de */,
+				385A0F852D5CEC1000F37C24 /* fr */,
+				385A0F862D5CEC2800F37C24 /* zh-Hans */,
+				385A0F872D5CEC3800F37C24 /* ja */,
+				3888E0982D621A1200324697 /* en-US */,
+				3888E0992D621A3D00324697 /* en-GB */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38F289EC2D4D39E400FC39E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38F289ED2D4D39E400FC39E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38F289EF2D4D39E400FC39E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EBX6X9HG94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flashmob-Tracker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Anfrage Map Karten Nutzung.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Anfrage Map Karten Nutzung.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.steffen.schinke.Flashmob-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38F289F02D4D39E400FC39E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EBX6X9HG94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flashmob-Tracker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Anfrage Map Karten Nutzung.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Anfrage Map Karten Nutzung.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.steffen.schinke.Flashmob-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38F289DB2D4D39E300FC39E1 /* Build configuration list for PBXProject "Flashmob-Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F289EC2D4D39E400FC39E1 /* Debug */,
+				38F289ED2D4D39E400FC39E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F289EE2D4D39E400FC39E1 /* Build configuration list for PBXNativeTarget "Flashmob-Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F289EF2D4D39E400FC39E1 /* Debug */,
+				38F289F02D4D39E400FC39E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		38636DE02D6723AC00D8DA0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
+		38636DE92D6723E600D8DA0B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		38636DE12D6723AC00D8DA0B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38636DE02D6723AC00D8DA0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		38636DE32D6723AC00D8DA0B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38636DE02D6723AC00D8DA0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		38636DE52D6723AC00D8DA0B /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38636DE02D6723AC00D8DA0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		38636DE72D6723AC00D8DA0B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38636DE02D6723AC00D8DA0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		38636DEA2D6723E600D8DA0B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38636DE92D6723E600D8DA0B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		38636DEC2D6723E600D8DA0B /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38636DE92D6723E600D8DA0B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 38F289D82D4D39E300FC39E1 /* Project object */;
+}

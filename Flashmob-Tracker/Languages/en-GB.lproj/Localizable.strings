@@ -1,0 +1,143 @@
+//
+//  Localizable.strings
+//  Flashmob-Tracker
+//
+//  Created by Steffen Steffen on 12.02.25.
+//
+
+"title_pdf" = "PDF Document";
+"title_org_list" = "Flashmobs";
+"title_organizer" = "Organiser";
+"title_filter" = "Filter";
+"title_event_details" = "Event Details";
+"title_dash_fav" = "My Favourites";
+"title_dash_news" = "News";
+"title_auth" = "Authentication";
+"title_docs" = "Documents";
+"title_motiv" = "Motivation";
+"title_planned_team" = "Team Planning";
+"title_actors" = "Planned Performers";
+"title_actors_search" = "Wanted Performers";
+"title_date" = "Date";
+"title_desc" = "Description";
+"title_location" = "Location";
+"title_map_favorites" = "Favourites on Map";
+"title_map_flashmobs" = "Flashmobs on Map";
+"title_map_organizer" = "Organisers on Map";
+"title_date_where" = "When & Where";
+"title_global" = "General";
+"title_sign_in" = "Sign In";
+"title_sign_up" = "Sign Up";
+"title_greet" = "Welcome";
+"title_dashboard" = "Dashboard";
+"title_flashmob_map" = "Map";
+"title_friends" = "Contacts";
+"title_settings" = "Settings";
+"title_dark_mode" = "Dark Mode";
+"title_anime_mode" = "Animated Background";
+"title_lang" = "Language";
+"title_tip" = "Tip";
+"title_notice" = "Notification";
+"title_notice_allowed" = "Notifications";
+"title_notice_new_events_allowed" = "For new events";
+"title_notice_new_massege_allowed" = "For new messages";
+"title_notice_memories_allowed" = "For reminders";
+"title_selection_image" = "Choose an Image";
+"title_menu" = "Menu";
+"title_organizer" = "Organiser";
+"title_participant" = "Participant";
+"title_guest" = "Guest";
+"title_logo_company" = "Company Logo";
+"title_logo_profile" = "Profile Picture";
+"title_informations" = "Information";
+"title_dgsvo" = "GDPR";
+"title_agb" = "Terms & Conditions";
+"title_profile" = "Profile";
+"title_create_event" = "Create New Event";
+"title_sozial_media" = "Login via Social Media";
+"title_datasource" = "Geographical data is provided by OpenStreetMap and licensed under the Open Database License (ODbL). For more information, visit https://www.openstreetmap.org/copyright.";
+
+
+"btn_sign_in" = "Sign In";
+"btn_sign_up" = "Sign Up";
+"btn_sign_out" = "Sign Out";
+"btn_continue" = "Continue";
+"btn_back" = "Back";
+"btn_save" = "Save";
+"btn_map_min" = "Minimise Map";
+"btn_map_max" = "Maximise Map";
+
+
+"lbl_search" = "Search";
+"lbl_pin_mode" = "Map Marker";
+
+
+"ph_email" = "Email ...";
+"ph_pwd" = "Password ...";
+"ph_pwd_conform" = "Confirm Password ...";
+"ph_first_name" = "First Name ...";
+"ph_last_name" = "Last Name ...";
+"ph_company_name" = "Company Name ...";
+"ph_city" = "City ...";
+"ph_street" = "Street & Number ...";
+"ph_zip_code" = "Postcode ...";
+"ph_search" = "Search ...";
+
+
+"tip_email" = "The email address must be in a valid format. Example: example@email.com";
+"tip_pwd" = "The password must be at least 8 characters long and include at least one number, one uppercase letter, and one special character.";
+"tip_pwd_conform" = "The password must match the one entered before.";
+"tip_auth_google" = "Login via Google is not available in preview mode.";
+"tip_name" = "The name must be at least 3 characters long and start with an uppercase letter. Special characters are not allowed.";
+"tip_agb" = "I confirm that I have read and fully accept the Terms & Conditions.";
+"tip_company_name" = "The company name must be at least 3 letters long and start with an uppercase letter. Special characters are not allowed.";
+"tip_city" = "The city name must be at least 3 letters long and start with an uppercase letter. Special characters are not allowed.";
+"tip_street" = "The street name must be at least 3 letters long and start with an uppercase letter, followed by the house number. Special characters are not allowed.";
+"tip_zip_code" = "The postcode must be at least 5 characters long. Special characters are not allowed.";
+
+
+"conf_last_name" = "Please enter a valid last name!";
+"conf_first_name" = "Please enter a valid first name!";
+"conf_company_name" = "Please enter a valid company name!";
+"conf_location" = "Please select your location";
+"conf_pwd_conform" = "Passwords do not match!";
+"conf_pwd" = "Please enter a valid password!";
+"conf_email" = "Please enter a valid email!";
+"conf_agb" = "Please accept the Terms & Conditions!";
+"conf_error" = "Failed to upload profile picture. No user data found!";
+
+"lng_ch" = "Chinese";
+"lng_de" = "German";
+"lng_en" = "English (GB)";
+"lng_us" = "English (US)";
+"lng_fr" = "French";
+"lng_jp" = "Japanese";
+
+
+"err_unknow" = "Unknown error.";
+"err_failed" = "Login attempt failed.";
+"err_not_implemented" = "This login method is not implemented yet.";
+"err_auth_apple" = "";
+"err_auth_google" = "";
+"err_auth_facebook" = "";
+"err_auth_insta" = "";
+"err_auth_twitter" = "";
+"err_map_calc" = "Could not convert map tap gesture to geo-location.";
+"err_map_event_zoom" = "No valid events found for zooming!";
+"err_map_coord" = "Event has invalid coordinates.";
+"error_map_search" = "No location found for search.";
+"err_google_user" = "Google authentication failed, no user received.";
+
+
+"agb_info1" = "I confirm that I have read the ";
+"agb_title" = "Terms & Conditions";
+"agb_info2" = " and fully accept them.";
+"agb_complete" = "1. Scope\nThese Terms & Conditions (T&C) govern the use of the Flashmob-Tracker app (hereinafter referred to as \"App\") and its related services. By using the App, users agree to these terms.\n\n2. Provider and Operator of the App\nThe Flashmob-Tracker app is operated by [Company Name], [Company Address]. For any questions or issues, please contact us at [Contact Email Address].\n\n3. Service Description\nThe Flashmob-Tracker app enables users to find, manage, and plan flashmob events. The app offers the following main features:\n- Display of upcoming flashmobs with details such as time, location, and theme\n- Geographical visualisation of event locations\n- Comment and like features to rate events and artists\n- User groups (Artists & Agencies, Artists, Guests)\n- Booking of flashmobs via artist agencies\n- Notifications about updates on events\n\n4. User Groups and Registration\n- **Artists & Agencies**: Registered organisers who plan flashmob events.\n- **Artists**: Users who wish to participate in planned flashmobs.\n- **Guests**: Spectators who wish to attend a flashmob without actively taking part.\n\n5. Use of the App\nThe App is intended for private use. Each user may only use the App in accordance with these T&C and applicable legal regulations. In particular, it is prohibited to use the App in a way that violates third-party rights or disrupts the operation of the App.\n\n6. User Responsibilities\n- **Artists & Agencies**: Responsible for planning and organising flashmob events and complying with legal regulations when conducting these events.\n- **Artists**: Responsible for respecting the participation conditions of the flashmobs.\n- **Guests**: Responsible for following event-specific conditions and avoiding disruptions.\n\n7. Booking and Payments\nUsers can book flashmob events through the App. Booking is done via artist agencies listed in the App as organisers. Fees may apply, which will be clearly displayed before booking completion.\n\n8. Notifications\nUsers can customise notifications for new events, changes, or other relevant information about flashmob events in their settings. These notifications may include push notifications or emails.\n\n9. Disclaimer\nThe operators of the App are not liable for the execution of flashmob events or for any damages occurring during an event. Users acknowledge that participation in flashmob events is at their own risk. The operators assume no responsibility for the behaviour of participants or safety during an event.\n\n10. Data Protection\nThe operators of the App collect and process personal data only in accordance with applicable data protection laws. Further information can be found in the App’s privacy policy.\n\n11. Changes to the T&C\nThe operators reserve the right to change these T&C at any time. Changes will be communicated to users in the App or via email. Continued use of the App after such notification constitutes acceptance of the amended T&C.\n\n12. Termination and Deactivation\nUsers can delete their account at any time. The operators reserve the right to suspend or delete user accounts in case of T&C violations.\n\n13. Applicable Law and Jurisdiction\nThe applicable law is that of [Country/Region], and the jurisdiction for all disputes related to the use of the App is Berlin.\n\n14. Final Provisions\nIf any provision of these T&C is found to be invalid or unenforceable, the validity of the remaining provisions shall remain unaffected.\n\nLast updated: 12.02.2025";
+"dsgvo_complete" = "Privacy Policy for the Flashmob-Tracker App\n\n1. General Information\nProtecting your personal data is important to us. This privacy policy informs you about the data we collect when you use the Flashmob-Tracker App, how we process it, and what rights you have regarding your data.\n\n2. Responsible Party\nThe entity responsible for data processing in connection with the Flashmob-Tracker App is:\nFlashmob-Tracker\nBerlin\ninfo@flashmob-tracker.com\n\n3. Types of Collected Data\nWe collect and process the following personal data when you use our App:\n- Registration Data: Name, email address, username, password\n- Profile Information: Profile picture, details about artist or organiser role\n- Event-Related Data: Participation in flashmob events, reviews, comments\n- Location Data: When using the map and search function\n- Payment Information: If bookings are made through the App\n- Communication Data: Messages and support inquiries\n\n4. Purposes of Data Processing\nWe use your data for the following purposes:\n- Providing and improving the App\n- Managing user accounts and profiles\n- Displaying flashmob events and their locations\n- Enabling bookings and payments\n- Sending notifications and event information\n- Security and fraud prevention\n\n5. Legal Basis for Processing\nYour data is processed based on the following legal bases:\n- Contract fulfilment (Art. 6(1)(b) GDPR): Providing App functionalities\n- Consent (Art. 6(1)(a) GDPR): Processing location data or receiving notifications\n- Legal obligation (Art. 6(1)(c) GDPR): Storing tax-relevant payment data\n- Legitimate interests (Art. 6(1)(f) GDPR): Improving the App, fraud prevention\n\n6. Data Sharing with Third Parties\nWe only share personal data if:\n- You have given explicit consent\n- It is necessary for contract fulfilment (e.g. bookings with artist agencies)\n- There is a legal obligation\n- It is required to enforce our rights\n\n7. Data Storage and Deletion\nWe store your personal data only as long as necessary for the above purposes or as required by legal retention obligations. Once storage is no longer necessary, data will be deleted.\n\n8. Your Rights\nYou have the right to:\n- Access your stored data (Art. 15 GDPR)\n- Correct inaccurate data (Art. 16 GDPR)\n- Delete your data (Art. 17 GDPR)\n- Restrict processing (Art. 18 GDPR)\n- Data portability (Art. 20 GDPR)\n- Object to processing (Art. 21 GDPR)\n- Withdraw consent at any time (Art. 7(3) GDPR)\nTo exercise these rights, please contact us at:\nsteffen.schinke@gmail.com\n\n9. Data Security\nWe implement technical and organisational security measures to protect your data against loss, misuse, or unauthorised access.\n\n10. Changes to the Privacy Policy\nWe reserve the right to change this privacy policy at any time. Changes will be published in the App.\n\nLast updated: 12.02.2025";
+
+"greet_title" = "Welcome to Flashmob-Tracker!";
+"greet_description" = "Flashmob-Tracker is your central platform for discovering, organising, and participating in flashmob events. Get all the key information about upcoming events, including time, location, and theme – with an interactive map view.\n\nWhat to expect:\n\nEvent Overview: All relevant details about planned flashmobs\n\nInteractive Maps: Real-time visualisation of event locations\n\nCommunity Interaction: Artists can sign up for events, guests get all the necessary info\n\nBooking through Organisers: Flashmobs can only be booked via artist agencies and organisers\n\nNotifications: Personalised updates on new events directly to your device\n\nFlashmob-Tracker connects artists, agencies, and guests to make flashmob events more accessible and exciting. Join the community and experience unforgettable moments!";
+
+"ph_title" = "Title";
+"ph_motto" = "Motto";
+"ph_desc" = "Description";

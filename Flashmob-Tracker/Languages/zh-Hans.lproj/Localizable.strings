@@ -1,0 +1,144 @@
+//
+//  Localizable.strings
+//  Flashmob-Tracker
+//
+//  Created by Steffen Steffen on 12.02.25.
+//
+
+"title_pdf" = "PDF 文档";
+"title_org_list" = "快闪活动";
+"title_organizer" = "组织者";
+"title_filter" = "筛选";
+"title_event_details" = "活动详情";
+"title_dash_fav" = "我的收藏";
+"title_dash_news" = "新闻";
+"title_auth" = "认证";
+"title_docs" = "文件";
+"title_motiv" = "动机";
+"title_planned_team" = "团队计划";
+"title_actors" = "计划参与者";
+"title_actors_search" = "寻找参与者";
+"title_date" = "日期";
+"title_desc" = "描述";
+"title_location" = "地点";
+"title_map_favorites" = "地图中的收藏";
+"title_map_flashmobs" = "地图中的快闪活动";
+"title_map_organizer" = "地图中的组织者";
+"title_date_where" = "时间 & 地点";
+"title_global" = "通用";
+"title_sign_in" = "登录";
+"title_sign_up" = "注册";
+"title_greet" = "欢迎";
+"title_dashboard" = "仪表板";
+"title_flashmob_map" = "地图";
+"title_friends" = "联系人";
+"title_settings" = "设置";
+"title_dark_mode" = "深色模式";
+"title_anime_mode" = "动画背景";
+"title_lang" = "语言";
+"title_tip" = "提示";
+"title_notice" = "通知";
+"title_notice_allowed" = "通知";
+"title_notice_new_events_allowed" = "新活动通知";
+"title_notice_new_massege_allowed" = "新消息通知";
+"title_notice_memories_allowed" = "提醒";
+"title_selection_image" = "选择图片";
+"title_menu" = "菜单";
+"title_organizer" = "组织者";
+"title_participant" = "参与者";
+"title_guest" = "访客";
+"title_logo_company" = "公司标志";
+"title_logo_profile" = "个人头像";
+"title_informations" = "信息";
+"title_dgsvo" = "GDPR";
+"title_agb" = "使用条款";
+"title_profile" = "个人资料";
+"title_create_event" = "创建活动";
+"title_sozial_media" = "通过社交媒体登录";
+"title_datasource" = "地理数据来自 OpenStreetMap，并依据 Open Database License (ODbL) 许可。详情请访问 https://www.openstreetmap.org/copyright。";
+
+
+"btn_sign_in" = "登录";
+"btn_sign_up" = "注册";
+"btn_sign_out" = "退出";
+"btn_continue" = "继续";
+"btn_back" = "返回";
+"btn_save" = "保存";
+"btn_map_min" = "最小化地图";
+"btn_map_max" = "最大化地图";
+
+
+"lbl_search" = "搜索";
+"lbl_pin_mode" = "地图标记模式";
+
+
+"ph_email" = "电子邮件 ...";
+"ph_pwd" = "密码 ...";
+"ph_pwd_conform" = "确认密码 ...";
+"ph_first_name" = "名字 ...";
+"ph_last_name" = "姓氏 ...";
+"ph_company_name" = "公司名称 ...";
+"ph_city" = "城市 ...";
+"ph_street" = "街道 & 号码 ...";
+"ph_zip_code" = "邮政编码 ...";
+"ph_search" = "搜索 ...";
+
+
+"tip_email" = "电子邮件地址必须是有效格式。例如 example@email.com";
+"tip_pwd" = "密码必须至少 8 个字符，并包含至少一个数字、大写字母和特殊字符。";
+"tip_pwd_conform" = "密码必须与前一个匹配。";
+"tip_auth_google" = "预览版不支持 Google 登录。";
+"tip_name" = "名称至少 3 个字符，并以大写字母开头。不允许特殊字符。";
+"tip_agb" = "我确认已阅读并完全接受使用条款。";
+"tip_company_name" = "公司名称至少 3 个字母，并以大写字母开头。不允许特殊字符。";
+"tip_city" = "城市名称至少 3 个字母，并以大写字母开头。不允许特殊字符。";
+"tip_street" = "街道名称至少 3 个字母，并以大写字母开头，后接门牌号。不允许特殊字符。";
+"tip_zip_code" = "邮政编码必须至少 5 个字符。不允许特殊字符。";
+
+
+"conf_last_name" = "请输入有效的姓氏！";
+"conf_first_name" = "请输入有效的名字！";
+"conf_company_name" = "请输入有效的公司名称！";
+"conf_location" = "请选择您的位置";
+"conf_pwd_conform" = "密码不匹配！";
+"conf_pwd" = "请输入有效的密码！";
+"conf_email" = "请输入有效的电子邮件地址！";
+"conf_agb" = "请接受使用条款！";
+"conf_error" = "无法上传个人头像，未找到用户数据！";
+
+"lng_ch" = "中文";
+"lng_de" = "德语";
+"lng_en" = "英语 (GB)";
+"lng_us" = "英语 (US)";
+"lng_fr" = "法语";
+"lng_jp" = "日语";
+
+
+"err_unknow" = "未知错误。";
+"err_failed" = "登录尝试失败。";
+"err_not_implemented" = "此登录方式暂未实现。";
+"err_auth_apple" = "";
+"err_auth_google" = "";
+"err_auth_facebook" = "";
+"err_auth_insta" = "";
+"err_auth_twitter" = "";
+"err_map_calc" = "无法将地图点击转换为地理位置。";
+"err_map_event_zoom" = "未找到可缩放的有效事件！";
+"err_map_coord" = "事件坐标无效。";
+"error_map_search" = "未找到符合搜索条件的位置。";
+"err_google_user" = "Google 认证失败，未获取到用户信息。";
+
+
+
+"agb_info1" = "我确认已阅读 ";
+"agb_title" = "条款和条件";
+"agb_info2" = " 并完全接受这些条款。";
+"agb_complete" = "1. 适用范围\n本《条款和条件》(T&C) 规定了 Flashmob-Tracker 应用程序（以下简称“应用程序”）及其相关服务的使用。使用本应用程序即表示用户同意这些条款。\n\n2. 应用程序的提供者和运营商\nFlashmob-Tracker 应用程序由 [公司名称]（[公司地址]）运营。如有任何问题或疑问，请通过 [联系电子邮件地址] 与我们联系。\n\n3. 服务描述\nFlashmob-Tracker 应用程序允许用户查找、管理和规划快闪活动。该应用程序提供以下主要功能：\n- 显示即将举行的快闪活动，包含时间、地点和主题等详细信息\n- 以地图方式可视化活动地点\n- 发表评论和点赞功能，用于对活动和艺术家进行评价\n- 用户组（艺术家 & 代理机构、艺术家、嘉宾）\n- 通过艺术家代理机构预订快闪活动\n- 关于活动的最新通知\n\n4. 用户组和注册\n- **艺术家 & 代理机构**：注册的活动组织者，负责规划快闪活动。\n- **艺术家**：希望参与已规划快闪活动的用户。\n- **嘉宾**：仅作为观众参加快闪活动，而不主动参与。\n\n5. 应用程序的使用\n本应用程序仅供私人使用。所有用户必须按照本 T&C 及适用的法律法规使用该应用程序。特别是，禁止以任何侵犯第三方权利或干扰应用程序运行的方式使用本应用程序。\n\n6. 用户责任\n- **艺术家 & 代理机构**：负责规划和组织快闪活动，并遵守相关法律规定。\n- **艺术家**：必须遵守快闪活动的参与条件。\n- **嘉宾**：必须遵守活动规定，不得干扰或破坏活动秩序。\n\n7. 预订和付款\n用户可以通过本应用程序预订快闪活动。预订需通过应用程序内列出的艺术家代理机构进行。预订可能会产生费用，费用将在预订确认前清楚显示。\n\n8. 通知\n用户可以在设置中自定义新活动、变更或其他相关信息的通知。这些通知可能包括推送通知或电子邮件。\n\n9. 免责声明\n应用程序运营商对快闪活动的执行或活动期间发生的任何损害不承担责任。用户承认，参加快闪活动完全由个人承担风险。运营商不对参与者的行为或活动期间的安全性负责。\n\n10. 数据保护\n应用程序运营商仅在适用的数据保护法律框架内收集和处理个人数据。有关数据保护的详细信息，请参阅应用程序的隐私政策。\n\n11. T&C 的变更\n运营商保留随时更改本 T&C 的权利。更改将通过应用程序或电子邮件通知用户。用户在收到通知后继续使用本应用程序，即表示接受更改后的 T&C。\n\n12. 账户终止和停用\n用户可以随时删除其账户。运营商保留在用户违反本 T&C 时暂停或删除其账户的权利。\n\n13. 适用法律和管辖权\n适用法律为 [国家/地区] 法律，所有与本应用程序使用相关的争议应由柏林法院管辖。\n\n14. 最终条款\n如果本 T&C 的任何条款被认定为无效或不可执行，本 T&C 的其余条款仍然有效。\n\n最后更新时间：2025 年 2 月 12 日";
+"dsgvo_complete" = "Flashmob-Tracker 应用程序隐私政策\n\n1. 概述\n保护您的个人数据对我们至关重要。本隐私政策将向您说明我们在您使用 Flashmob-Tracker 应用程序时收集的数据类型、如何处理这些数据，以及您对您的数据所享有的权利。\n\n2. 责任方\n负责 Flashmob-Tracker 应用程序数据处理的公司信息如下：\nFlashmob-Tracker\n柏林\ninfo@flashmob-tracker.com\n\n3. 收集的数据类型\n当您使用我们的应用程序时，我们会收集和处理以下个人数据：\n- 注册数据：姓名、电子邮件地址、用户名、密码\n- 个人资料信息：头像、艺术家或组织者角色信息\n- 活动相关数据：快闪活动的参与情况、评价、评论\n- 位置数据：当您使用地图和搜索功能时\n- 付款信息：如果通过应用程序进行预订\n- 通信数据：消息和支持请求\n\n4. 数据处理的目的\n我们使用您的数据以实现以下目的：\n- 提供和改进应用程序\n- 管理用户账户和个人资料\n- 显示快闪活动及其地点\n- 允许预订和付款\n- 发送通知和活动信息\n- 保障安全并防止滥用\n\n5. 数据处理的法律依据\n您的数据处理基于以下法律依据：\n- 合同履行 (GDPR 第 6(1)(b) 条)：提供应用程序功能\n- 用户同意 (GDPR 第 6(1)(a) 条)：处理位置数据或接收通知\n- 法律义务 (GDPR 第 6(1)(c) 条)：存储税务相关的付款数据\n- 合法利益 (GDPR 第 6(1)(f) 条)：改进应用程序，防止欺诈\n\n6. 数据共享\n我们仅在以下情况下共享您的个人数据：\n- 您已明确同意\n- 为履行合同（例如与艺术家代理机构的预订）而必要\n- 法律要求\n- 维护我们的合法权利\n\n7. 数据存储和删除\n我们仅在上述目的所需的时间内存储您的个人数据，或在法律规定的存储期限内存储。数据一旦不再需要，将被删除。\n\n8. 您的权利\n您有权：\n- 访问您的存储数据 (GDPR 第 15 条)\n- 更正错误数据 (GDPR 第 16 条)\n- 删除您的数据 (GDPR 第 17 条)\n- 限制数据处理 (GDPR 第 18 条)\n- 数据可移植性 (GDPR 第 20 条)\n- 反对数据处理 (GDPR 第 21 条)\n- 随时撤回您的同意 (GDPR 第 7(3) 条)\n如需行使这些权利，请联系：\nsteffen.schinke@gmail.com\n\n9. 数据安全\n我们采取技术和组织安全措施，以保护您的数据免遭丢失、滥用或未经授权的访问。\n\n10. 隐私政策的变更\n我们保留随时更改本隐私政策的权利。变更将在应用程序中发布。\n\n最新更新：2025 年 2 月 12 日";
+
+"greet_title" = "欢迎来到 Flashmob-Tracker！";
+"greet_description" = "Flashmob-Tracker 是您发现、组织和参与快闪活动的中央平台。获取即将举办的活动的所有关键信息，包括时间、地点和主题，并提供交互式地图视图。\n\n功能亮点：\n\n活动概览：获取所有相关的快闪活动详情\n\n互动地图：实时可视化活动地点\n\n社区互动：艺术家可报名参加活动，嘉宾可获取所有必要信息\n\n主办方预订：快闪活动只能通过艺术家代理机构和主办方预订\n\n通知提醒：获取新活动的个性化更新，直接推送到您的设备\n\nFlashmob-Tracker 连接了艺术家、代理机构和嘉宾，使快闪活动更具可访问性和吸引力。加入社区，体验非凡的瞬间！";
+
+"ph_title" = "标题";
+"ph_motto" = "座右铭";
+"ph_desc" = "描述";

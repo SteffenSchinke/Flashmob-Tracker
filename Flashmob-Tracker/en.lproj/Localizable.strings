@@ -1,0 +1,78 @@
+//
+//  Localizable.strings
+//  Flashmob-Tracker
+//
+//  Created by Steffen Steffen on 12.02.25.
+//
+
+"title_global" = "General";
+"title_sign_in" = "Sign In";
+"title_sign_up" = "Sign Up";
+"title_welcome" = "Welcome";
+"title_dashboard" = "Dashboard";
+"title_flashmob_map" = "Map";
+"title_friends" = "Friends";
+"title_settings" = "Settings";
+"title_dark_mode" = "Dark Mode";
+"title_anime_mode" = "Animated Background";
+"title_lang" = "Language";
+"title_tip" = "Tip";
+"title_notice" = "Notification";
+"title_notice_allowed" = "Notifications";
+"title_notice_new_events_allowed" = "For new events";
+"title_notice_new_massege_allowed" = "For new messages";
+"title_notice_memories_allowed" = "For reminders";
+"title_selection_image" = "Select an image";
+"title_menu" = "Menu";
+
+
+"btn_sign_in" = "Sign In";
+"btn_sign_up" = "Sign Up";
+"btn_sign_out" = "Sign Out";
+"btn_continue" = "Continue";
+"btn_back" = "Back";
+"btn_map_min" = "Minimize map";
+"btn_map_max" = "Maximize map";
+
+
+"lbl_search" = "Search";
+
+
+"ph_email" = "Email";
+"ph_pwd" = "Password";
+"ph_pwd_conform" = "Confirm password";
+"ph_first_name" = "First name";
+"ph_last_name" = "Last name";
+
+
+"txt_sign_in_by" = "Login via social media";
+
+
+"tip_email" = "The email address must have a valid format. E.g. example.name@email.com";
+"tip_pwd" = "The password must be at least 8 characters long, including at least one number, one uppercase letter, and one special character.";
+"tip_pwd_conform" = "The password must match the previously entered one.";
+"tip_auth_google" = "Login via Google is not available in the preview.";
+"tip_name" = "The name must be at least 3 characters long and start with an uppercase letter. Special characters are not allowed.";
+
+
+"lng_ch" = "Chinese";
+"lng_de" = "German";
+"lng_en" = "English";
+"lng_fr" = "French";
+"lng_jp" = "Japanese";
+
+
+"err_unknow" = "Unknown error.";
+"err_failed" = "Login attempt failed.";
+"err_auth_apple" = "";
+"err_auth_google" = "";
+"err_auth_facebook" = "";
+"err_auth_insta" = "";
+"err_auth_twitter" = "";
+
+
+"agb_info1" = "I hereby confirm that I have ";
+"agb_info2" = "read and fully accept these terms.";
+"agb_title" = "Terms and Conditions";
+"agb_complete" = "1. Scope\nThese General Terms and Conditions (GTC) govern the use of the Flashmob-Tracker App (hereinafter referred to as 'App') and the associated services. By using the App, users agree to these terms.\n\n2. Provider and Operator of the App\nThe Flashmob-Tracker App is operated by [Company Name], [Company Address]. For questions or issues, you can contact us at [Contact Email Address].\n\n3. Description of Services\nThe Flashmob-Tracker App allows users to find, manage, and plan flashmob events. The app offers the following main features:\n- Display of upcoming flashmobs with details such as time, location, and theme\n- Geographic visualization of event locations\n- Comment and like functions for rating events and artists\n- User groups (Artists & Agencies, Artists, Guests)\n- Booking a flashmob through artist agencies\n- Notifications about news related to events\n\n4. User Groups and Registration\n- **Artists & Agencies**: Registered organizers who plan flashmob events.\n- **Artists**: Users who want to participate in planned flashmobs.\n- **Guests**: Spectators who want to attend a flashmob without actively participating.\n\n5. Use of the App\nThe app is intended for private use. Each user may only use the app in accordance with these GTC and applicable legal provisions. In particular, it is prohibited to use the app in a way that infringes the rights of third parties or disrupts the operation of the app.\n\n6. User Responsibility\n- **Artists & Agencies**: Responsible for planning and organizing flashmob events and complying with legal regulations during these events.\n- **Artists**: Responsible for respecting the participation conditions of flashmobs.\n- **Guests**: Responsible for following the event conditions and refraining from harassment or disturbances at events.\n\n7. Booking and Payments\nUsers can book flashmob events via the app. Booking is done through artist agencies listed as organizers in the app. Fees may apply for bookings, which will be clearly shown before completing the booking.\n\n8. Notifications\nUsers can adjust notifications for new events, changes, or other relevant information about flashmob events in their settings. These notifications can include push notifications or emails.\n\n9. Disclaimer\nThe app operators are not liable for the execution of flashmob events or for damages occurring during an event. Users acknowledge that participation in flashmob events is at their own risk. The operators are not responsible for the behavior of participants or the safety during an event.\n\n10. Data Protection\nThe app operators collect and process personal data only in accordance with applicable data protection laws. More information about data protection can be found in the app's privacy policy.\n\n11. Changes to the GTC\nThe operators reserve the right to change these GTC at any time. Changes will be communicated to users within the app or via email. Continued use of the app after such notification is considered acceptance of the changed GTC.\n\n12. Termination and Deactivation\nUsers can delete their account at any time. The operators reserve the right to block or delete user accounts in case of violations of these GTC.\n\n13. Applicable Law and Jurisdiction\nThe laws of [Country/Region] apply, and the jurisdiction for all disputes related to the use of the app is [Location].\n\n14. Final Provisions\nIf any provision of these GTC is invalid or unenforceable, the validity of the remaining provisions shall remain unaffected.\n\nDate of last update: [Date]";
+
