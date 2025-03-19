@@ -40,7 +40,7 @@ struct Dashboard: ContentView {
                 VStack {
                     
                     Text(appLang.localString("title_dash_fav"))
-                        .padding(.leading)
+                        .padding()
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .darkModeForegroundShadow(18)
                     
@@ -71,7 +71,7 @@ struct Dashboard: ContentView {
                     }
                     .padding(.horizontal)
                 }
-                .frame(maxWidth: .infinity, maxHeight: 160, alignment: .top)
+                .frame(maxWidth: .infinity, maxHeight: 190, alignment: .top)
             }
             
             VStack {
