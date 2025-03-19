@@ -10,7 +10,6 @@
 		3803AA9C2D78596E00C6A3CA /* FlashmobLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3803AA9B2D78596900C6A3CA /* FlashmobLocation.swift */; };
 		3803FD462D8ABEF1006DE8B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3803FD452D8ABEF1006DE8B4 /* README.md */; };
 		3803FD492D8ABEFF006DE8B4 /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3803FD472D8ABEFF006DE8B4 /* header.jpg */; };
-		3803FD4B2D8ACA14006DE8B4 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 3803FD4A2D8ACA11006DE8B4 /* .gitignore */; };
 		38070F692D78A41000CFFD61 /* DashboardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38070F682D78A40B00CFFD61 /* DashboardVM.swift */; };
 		38070F6B2D78A6FF00CFFD61 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38070F6A2D78A6F500CFFD61 /* EventDetail.swift */; };
 		380853F02D6E49B300EEA42D /* UIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380853EF2D6E49B300EEA42D /* UIPageControl.swift */; };
@@ -112,6 +111,7 @@
 		3803FD452D8ABEF1006DE8B4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3803FD472D8ABEFF006DE8B4 /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
 		3803FD4A2D8ACA11006DE8B4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3803FD4D2D8ACE18006DE8B4 /* Flashmob-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flashmob-Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38070F682D78A40B00CFFD61 /* DashboardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVM.swift; sourceTree = "<group>"; };
 		38070F6A2D78A6F500CFFD61 /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
 		380853EF2D6E49B300EEA42D /* UIPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControl.swift; sourceTree = "<group>"; };
@@ -189,7 +189,6 @@
 		38DCE0332D6BDF5500262F20 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		38E15BEC2D75F71D0012D19F /* CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
 		38E8844C2D68683600A7263D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		38ECF3E72D53BD0500B3A34E /* Flashmob-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Flashmob-Tracker.app"; path = "/Users/sts/Desktop/Flashmob-Tracker/build/Debug-iphoneos/Flashmob-Tracker.app"; sourceTree = "<absolute>"; };
 		38ECF3EC2D53D46800B3A34E /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
 		38ECF3EE2D53D61100B3A34E /* AuthState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthState.swift; sourceTree = "<group>"; };
 		38ECF3F02D5410EB00B3A34E /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
@@ -387,6 +386,7 @@
 				3803FD452D8ABEF1006DE8B4 /* README.md */,
 				3803FD4A2D8ACA11006DE8B4 /* .gitignore */,
 				3803FD482D8ABEFF006DE8B4 /* images */,
+				3803FD4D2D8ACE18006DE8B4 /* Flashmob-Tracker.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -516,7 +516,7 @@
 				38636DEC2D6723E600D8DA0B /* GoogleSignInSwift */,
 			);
 			productName = "Flashmob-Tracker";
-			productReference = 38ECF3E72D53BD0500B3A34E /* Flashmob-Tracker.app */;
+			productReference = 3803FD4D2D8ACE18006DE8B4 /* Flashmob-Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -589,7 +589,6 @@
 				38ECF3F12D5410F000B3A34E /* Launch.swift in Sources */,
 				38C45C702D4FECA500F9C6A6 /* AppUserRule.swift in Sources */,
 				38F1FF402D6E05EE00AB394E /* HeaderDisplayMode.swift in Sources */,
-				3803FD4B2D8ACA14006DE8B4 /* .gitignore in Sources */,
 				38F72DD42D6E9015003CC790 /* MediaFileVM.swift in Sources */,
 				387B93572D67BD6700D2AF06 /* FlashmobStore.swift in Sources */,
 				38F72D8E2D6E859A003CC790 /* PDFFile.swift in Sources */,
