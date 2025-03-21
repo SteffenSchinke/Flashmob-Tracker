@@ -484,9 +484,6 @@ final class AuthUserVM: ViewModelBaseClass {
         self.firstName = ""
         self.lastName = ""
         self.companyName = ""
-        self.city = ""
-        self.street = ""
-        self.zipCode = ""
 #endif
     }
     
