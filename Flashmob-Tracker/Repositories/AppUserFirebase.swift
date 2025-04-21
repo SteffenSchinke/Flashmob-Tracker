@@ -13,18 +13,18 @@ final class AppUserFirebase: Repository {
     
     private let collection = Firestore.firestore().collection(FireStoreKey.appUsers.key)
     
-    func fetch<T>( _ type: T.Type, _ id: String) async throws(Error) -> T where T : Decodable {
+    func fetch<T>( _ type: T.Type, _ id: String) async throws -> T where T : Decodable {
         
         do {
             
             return try await collection.document(id).getDocument().data(as: type)
         } catch {
             
-            throw .failedFetch(error.localizedDescription)
+            throw AppUserError.failedFetch(error.localizedDescription)
         }
     }
     
-    func fetchAll<T>(_ type: T.Type) async throws(Error) -> [T] where T : Decodable {
+    func fetchAll<T>(_ type: T.Type) async throws -> [T] where T : Decodable {
         
         do {
             
@@ -35,44 +35,44 @@ final class AppUserFirebase: Repository {
             return try snapshot.documents.map { try $0.data(as: T.self) }
         } catch {
             
-            throw .failedFetch(error.localizedDescription)
+            throw AppUserError.failedFetch(error.localizedDescription)
         }
     }
     
-    func insert<T>( _ object: T) throws(Error) where T: Encodable, T: Identifiable, T.ID == String {
+    func insert<T>( _ object: T) throws where T: Encodable, T: Identifiable, T.ID == String {
         
         do {
             
             try collection.document(object.id).setData(from: object)
         } catch {
             
-            throw .failedInsert(error.localizedDescription)
+            throw AppUserError.failedInsert(error.localizedDescription)
         }
     }
     
-    func delete<T>(_ object: T) async throws(Error) where T: Identifiable, T.ID == String {
+    func delete<T>(_ object: T) async throws where T: Identifiable, T.ID == String {
         
         do {
             
             try await collection.document(object.id).delete()
         } catch {
             
-            throw .failedDelete(error.localizedDescription)
+            throw AppUserError.failedDelete(error.localizedDescription)
         }
     }
     
-    func update<T>(_ object: T) async throws(Error) where T: Encodable, T: Identifiable, T.ID == String  {
+    func update<T>(_ object: T) async throws where T: Encodable, T: Identifiable, T.ID == String  {
         
         do {
             
             try collection.document(object.id).setData(from: object)
         } catch {
             
-            throw .failedUpdate(error.localizedDescription)
+            throw AppUserError.failedUpdate(error.localizedDescription)
         }
     }
     
-    enum Error: LocalizedError {
+    enum AppUserError: LocalizedError {
         
         // TODO sts 18.02.2025 - error message locate
         case failedUniqueId

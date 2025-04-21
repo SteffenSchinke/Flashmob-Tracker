@@ -25,18 +25,18 @@ final class EventFirebase: Repository {
         self.listenerOne = nil
     }
     
-    func fetch<T>( _ type: T.Type, _ id: String) async throws(Error) -> T where T : Decodable {
+    func fetch<T>( _ type: T.Type, _ id: String) async throws -> T where T : Decodable {
         
         do {
             
             return try await collection.document(id).getDocument().data(as: type)
         } catch {
             
-            throw .failedFetch(error.localizedDescription)
+            throw EventError.failedFetch(error.localizedDescription)
         }
     }
     
-    func fetchAll<T>( _ type: T.Type) async throws(Error) -> [T] where T : Decodable {
+    func fetchAll<T>( _ type: T.Type) async throws -> [T] where T : Decodable {
         
         do {
             
@@ -46,11 +46,11 @@ final class EventFirebase: Repository {
             return try snapshot.documents.map { try $0.data(as: T.self) }
         } catch {
             
-            throw .failedFetch(error.localizedDescription)
+            throw EventError.failedFetch(error.localizedDescription)
         }
     }
     
-    func fetchOrgEvents<T>( _ type: T.Type, _ orgId: String) async throws(Error) -> [T] where T : Decodable {
+    func fetchOrgEvents<T>( _ type: T.Type, _ orgId: String) async throws -> [T] where T : Decodable {
         
         do {
             
@@ -61,11 +61,11 @@ final class EventFirebase: Repository {
             return try snapshot.documents.map { try $0.data(as: T.self) }
         } catch {
             
-            throw .failedFetch(error.localizedDescription)
+            throw EventError.failedFetch(error.localizedDescription)
         }
     }
     
-    func insert<T>( _ object: T) throws(Error) where T : Encodable, T : Identifiable, T.ID == String {
+    func insert<T>( _ object: T) throws where T : Encodable, T : Identifiable, T.ID == String {
         
         do {
             
@@ -74,11 +74,11 @@ final class EventFirebase: Repository {
             print("EventFirebase::insert: \(object.id)")
         } catch {
             
-            throw .failedInsert(error.localizedDescription)
+            throw EventError.failedInsert(error.localizedDescription)
         }
     }
     
-    func delete<T>( _ object: T) async throws(Error) where T: Identifiable, T.ID == String {
+    func delete<T>( _ object: T) async throws where T: Identifiable, T.ID == String {
         
         do {
             
@@ -87,18 +87,18 @@ final class EventFirebase: Repository {
             print("EventFirebase::delete: \(object.id)")
         } catch {
             
-            throw .failedDelete(error.localizedDescription)
+            throw EventError.failedDelete(error.localizedDescription)
         }
     }
     
-    func update<T>( _ object: T) async throws(Error) where T: Encodable, T: Identifiable, T.ID == String  {
+    func update<T>( _ object: T) async throws where T: Encodable, T: Identifiable, T.ID == String  {
         
         do {
             
             try collection.document(object.id).setData(from: object)
         } catch {
             
-            throw .failedUpdate(error.localizedDescription)
+            throw EventError.failedUpdate(error.localizedDescription)
         }
     }
     
@@ -121,7 +121,7 @@ final class EventFirebase: Repository {
     
     func observeOne( _ eventId: String,
                      onChange: @escaping (Event) -> Void,
-                     onError: @escaping (Error) -> Void) {
+                     onError: @escaping (EventError) -> Void) {
         
         self.listenerOne =
             collection.document(eventId).addSnapshotListener { snapshot, _ in
@@ -148,7 +148,7 @@ final class EventFirebase: Repository {
         return newDocument.documentID
     }
     
-    enum Error: LocalizedError {
+    enum EventError: LocalizedError {
         
         // TODO sts 18.02.2025 - error message locate
         case failedUniqueId
